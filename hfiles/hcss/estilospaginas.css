@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+table{
+    display: block;
+}
+
+body {
+    background-color: rgb(248, 221, 189);
+    
+}
