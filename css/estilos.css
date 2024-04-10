@@ -3,6 +3,12 @@ h1 {
     font-family:'Courier New', Courier, monospace
 }
 
+img {
+    display: block;
+    margin: auto;
+    
+}
+
 body {
     background-color: rgb(241, 255, 209);
     
