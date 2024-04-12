@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+
 }
 
 img {
@@ -9,7 +10,11 @@ img {
     
 }
 
+p {
+    text-align: left;
+}
 body {
     background-color: rgb(241, 255, 209);
     
 }
+
