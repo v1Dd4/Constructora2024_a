@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(120deg, #37f867, #e0fd38) ;
+    background: linear-gradient(120deg, #1cfff4, #3814ff) ;
 }
 
 h1 {
@@ -12,4 +12,7 @@ img {
 }
 p {
     text-align: left;
+}
+div{
+    text-align: center;
 }
