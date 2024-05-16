@@ -21,18 +21,3 @@ function eliminar(){
 
 
 
-function modificar(){
-    Swal.fire(
-        'Exito!',
-        'Se ha modificado el empleado!',
-        'success'
-        )
-}; 
-
-function modificarProducto(){
-    Swal.fire(
-        'Exito!',
-        'Se ha modificado el producto!',
-        'success'
-        )
-}; 

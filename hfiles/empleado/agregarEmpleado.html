@@ -13,7 +13,26 @@
     <br>
     <div><h1>AGREGAR EMPLEADO</h1></div>
     <a href="../recursos.html" <button type="button" class="btn btn-success">Volver</button></a>
-        <div>
+    <div class="container">
+        <h1>agregar empleados</h1>
+            <form class = "col-6">
+                <label>Nombre completo</label>
+                <input type="text" class = "form-control" id = "nombre_emp">
+                <label>Rut</label>
+                <input type="text" class = "form-control" id = "rut_emp">
+                <label>Digito verificador</label>
+                <input type="text" class = "form-control" id = "dv_emp">
+                <label>Sueldo</label>
+                <input type="text" class = "form-control" id = "sueldo_emp">
+                <label>email</label>
+                <input type="text" class = "form-control" id = "email_emp">
+                <label>Codigo del empleado</label>
+                <input type="text" class = "form-control" id = "codigo_emp">
+                <button type = "button" class = "btn btn-success" id = "agregar">Agregar</button>
+
+            </form>
+    </div>
+        <!--<div>
             <form action="">
                 NOMBRE<input type="text" id="Name" value=""><br>
                 RUT<input type="number" id="Rut" value=""><br>
@@ -22,17 +41,10 @@
                 
                 <input type="button" onclick="guardar()" value="GUARDAR" >
             </form>
-        </div>
-            
-        
-
-
-
-
-
+        </div>-->
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../../JS/JavaScript.js"></script>
+    <script src="../../JS/agregar_emp.js"></script>
     <script src="../../JS/sweetAltert.js"></script>
 </body>
 </html>
