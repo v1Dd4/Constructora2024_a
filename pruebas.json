@@ -1,0 +1,22 @@
+{
+    "inventario" : [
+        {
+            "id_prod" : "01",
+            "nombre-prod" : "yeso",
+            "cantidad_prod_u" : "500",
+            "precio_prod_u" : "10000"
+        },
+        {
+            "id_prod" : "02",
+            "nombre-prod" : "cemento",
+            "cantidad_prod_u" : "400",
+            "precio_prod_u" : "12000"
+        },
+        {
+            "id_prod" : "03",
+            "nombre-prod" : "zancos",
+            "cantidad_prod_u" : "10",
+            "precio_prod_u" : "5000"
+        }
+    ]
+}
