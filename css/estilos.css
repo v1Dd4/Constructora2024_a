@@ -15,4 +15,9 @@ p {
 }
 div{
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
