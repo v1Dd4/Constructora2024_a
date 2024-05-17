@@ -1,0 +1,12 @@
+{
+    "empleados" : [
+        {
+            "id" : "2",
+            "nombre" : "pedro",
+            "rut" : "21345",
+            "dv" : "k",
+            "sueldo" : "1213",
+            "email" : "dadad" 
+        }
+    ]
+}

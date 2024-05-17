@@ -9,12 +9,33 @@
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body> 
-        <br><br>
+      <a href="principal.html"><button type="button" class="btn btn-success">Volver</button></a>
         <h1>Modulo inventario</h1>
         <br>
-        <a href="principal.html" <button type="button" class="btn btn-success">Volver</button></a>
-        <br><br>
-        <table class="table table-striped">
+        <div class="col-12" id = "productos">
+          <table class = "table table-striped" id = "lista_prod">
+              <tr>
+                  <td>ID</td>
+                  <td>PRODUCTO</td>
+                  <td>CANTIDAD</td>
+                  <td>FORMATO ALMACENAJE</td>
+                  <td>ACCIONES</td>
+              </tr>
+          </table>
+      </div>
+      <div class="container">
+        <h1>agregar productos</h1>
+            <form class = "col-6">
+                <label>Nombre producto</label>
+                <input type="text" class = "form-control" id = "nombre_prod">
+                <label>Cantidad</label>
+                <input type="text" class = "form-control" id = "cantidad_prod">
+                <label>Formato almacenaje</label>
+                <input type="text" class = "form-control" id = "formato_prod">
+                <button type = "button" class = "btn btn-success" id = "agregar_prod">Agregar</button>
+            </form>
+    </div>
+        <!--<table class="table table-striped">
             <thead>
               <tr>
                 <th scope="col">#ID</th>
@@ -46,7 +67,7 @@
           </table>
           <a href="producto/agregarProducto.html"><input type="button" value="Agregar"></a>
           <a href="producto/eliminarProducto.html"><input type="button" value="Eliminar" onclick="eliminar()"></a>
-          <a href="producto/modificarProducto.html"><input type="button" value="Modificar" onclick="modificar()"></a>
+          <a href="producto/modificarProducto.html"><input type="button" value="Modificar" onclick="modificar()"></a>-->
           
         <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" 
         integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
@@ -56,6 +77,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="../JS/agregar_inv.js"></script>
         
     </body>
 </html>

@@ -19,5 +19,16 @@ div{
 }
 form{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin-left: 600px;
+
+}
+.h1empleado{
+    margin-right: 600px;
+
+}
+.btn btn-success{
+    margin-left: 20px;
 
 }
